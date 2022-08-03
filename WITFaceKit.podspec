@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WITFaceKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '实名认证SDK'
 
 # This description is used to generate tags and improve search results.
@@ -41,4 +41,7 @@ TODO: 实名认证SDK
   s.dependency 'Masonry', '~>1.1.0'
   s.dependency 'dsBridge'
   s.dependency 'SDWebImage', '~>5.0'
+  #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+
 end
