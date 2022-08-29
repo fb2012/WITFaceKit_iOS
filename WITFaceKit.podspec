@@ -42,6 +42,6 @@ TODO: 实名认证SDK
   s.dependency 'dsBridge'
   s.dependency 'SDWebImage', '~>5.0'
   #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 end
