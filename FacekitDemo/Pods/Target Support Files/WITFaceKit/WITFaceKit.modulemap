@@ -1,0 +1,6 @@
+framework module WITFaceKit {
+  umbrella header "WITFaceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

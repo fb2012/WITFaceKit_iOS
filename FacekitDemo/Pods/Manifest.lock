@@ -1,0 +1,30 @@
+PODS:
+  - dsBridge (3.0.6)
+  - Masonry (1.1.0)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - WITFaceKit (0.1.5):
+    - dsBridge
+    - Masonry (~> 1.1.0)
+    - SDWebImage (~> 5.0)
+
+DEPENDENCIES:
+  - WITFaceKit
+
+SPEC REPOS:
+  trunk:
+    - dsBridge
+    - Masonry
+    - SDWebImage
+    - WITFaceKit
+
+SPEC CHECKSUMS:
+  dsBridge: 48b62ee8a411ad601a88d6f6c8cf6cb634b206b7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  WITFaceKit: 45cfd86fe3748b65fbddf6f3c5ce9511ab2d522c
+
+PODFILE CHECKSUM: fe20213e101188923a2489bbf1902e59f553ab1d
+
+COCOAPODS: 1.11.3
