@@ -38,6 +38,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param url 请求URL地址。目前是用这个
 /// @param result  返回流程结果，退出 1。。
 + (void)enterFaceManager:(WITRequestModel *)model type:(WITEntryFaceType)type ViewController:(UIViewController *)vc RequestURL:(NSString *)url result:(faceResult)result;
+
+
+/// 实名认证结果 14.3以下 在 application: openURL: options: 中调用
+/// @param absoluteString openURL.absoluteString
+/// @param vc 进入的VC
+/// @param type type 进入类型
+/// @param result 返回流程结果，退出 1。。
++ (void)ResultOfFaceManagerAbsoluteString:(NSString *)absoluteString ViewController:(UIViewController *)vc type:(WITEntryFaceType)type result:(faceResult)result;
 @end
 
 NS_ASSUME_NONNULL_END
