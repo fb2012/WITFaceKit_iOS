@@ -187,7 +187,6 @@
 				379E759328BCB3C50025FAC1 /* Sources */,
 				379E759428BCB3C50025FAC1 /* Frameworks */,
 				379E759528BCB3C50025FAC1 /* Resources */,
-				53EC969917206C12EFC0A136 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,7 +224,6 @@
 				379E75B828BCB3C60025FAC1 /* Sources */,
 				379E75B928BCB3C60025FAC1 /* Frameworks */,
 				379E75BA28BCB3C60025FAC1 /* Resources */,
-				55E644E6DA52200BEB251B8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,40 +305,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		53EC969917206C12EFC0A136 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FacekitDemo/Pods-FacekitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FacekitDemo/Pods-FacekitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FacekitDemo/Pods-FacekitDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55E644E6DA52200BEB251B8C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FacekitDemo-FacekitDemoUITests/Pods-FacekitDemo-FacekitDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FacekitDemo-FacekitDemoUITests/Pods-FacekitDemo-FacekitDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FacekitDemo-FacekitDemoUITests/Pods-FacekitDemo-FacekitDemoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		71AF8BD6C22B96BADD7A8F1E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

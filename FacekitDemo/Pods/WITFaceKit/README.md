@@ -73,7 +73,7 @@ WITFaceKit  入口方法：
 
 \#warning 实名认证入口 参数请保证有值。
 
-\#warning 2.1 iOS14.3. 以下会跳至 safari 浏览器 
+\#warning 2.1 iOS14.8. 以下会跳至 safari 浏览器 
 
    
 

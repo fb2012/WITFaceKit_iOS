@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface WITFaceManager : NSObject
 
 
-/// 实名认证入口 域名改变 暂时舍去不用
+/// 实名认证入口 域名改变 暂时舍去不用11
 /// @param model 入口参数
 /// @param type 进入类型
 /// @param vc 进入的VC
@@ -40,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)enterFaceManager:(WITRequestModel *)model type:(WITEntryFaceType)type ViewController:(UIViewController *)vc RequestURL:(NSString *)url result:(faceResult)result;
 
 
-/// 实名认证结果 14.3以下 在 application: openURL: options: 中调用
+/// 实名认证结果 14.8以下 在 application: openURL: options: 中调用
 /// @param absoluteString openURL.absoluteString
 /// @param vc 进入的VC
 /// @param type type 进入类型
