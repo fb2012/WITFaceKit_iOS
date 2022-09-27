@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor redColor];
     
     // Do any additional setup after loading the view.
 }
@@ -30,8 +30,8 @@
 
     
     WITRequestModel *model = [[WITRequestModel alloc]init];
-    model.clientId = _clientId.text;
-    model.secret = _secret.text;
+    model.clientId = @"app3rdzq1";_clientId.text;
+    model.secret = @"123456";
     model.phone = _phone.text;
     model.userName = _userName.text;
     
@@ -41,7 +41,7 @@
       //实名认证入口 参数请保证有值
     //url 目前是生产环境地址：https://sim-realname.tongxin.cn:20004
     //调试地址:https://wit-web-h5-dev.tongxin.cn/#/authentication/login
-    NSString *devUrl = @"https://wit-web-h5-dev.tongxin.cn/#/authentication/login";
+    NSString *devUrl = @"https://sim-realname.tongxin.cn:20004";
     [WITFaceManager enterFaceManager:model type:WITEntryFaceTypePresent ViewController:self RequestURL:devUrl result:^(BOOL isExit, id  _Nullable options) {
         // 回调，根据自己的业务自行处理;
         NSLog(@"isExit = %d",isExit);

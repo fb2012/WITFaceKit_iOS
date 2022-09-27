@@ -50,10 +50,9 @@
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
 }
 - (BOOL)application:(UIApplication *)app openURL:(nonnull NSURL *)url options:(nonnull NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
-#warning 此处是自己的clientid 【app68939512 只是demo中的例子】 只有14.3 以下的才走这个逻辑
-    if ([url.absoluteString hasPrefix:@"app68939512://"] && [url.absoluteString containsString:@"faceRecogn"]) {
+#warning 此处是自己的clientid 【app68939512 只是demo中的例子】 只有14.8 以下的才走这个逻辑
+    if ([url.absoluteString hasPrefix:@"app3rdzq1://"] && [url.absoluteString containsString:@"faceRecogn"]) {
     //解析 url 字段
-    //并刷新 webview 的 url  【 】 自己处理业务处理
         UIViewController *root = [self currentViewController];//.rootViewController;
         if(root){
             [WITFaceManager ResultOfFaceManagerAbsoluteString:url.absoluteString ViewController:root type:WITEntryFaceTypePresent result:^(BOOL isExit, id  _Nullable options) {
