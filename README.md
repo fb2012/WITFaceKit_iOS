@@ -73,7 +73,7 @@ WITFaceKit  入口方法：
 
 \#warning 实名认证入口 参数请保证有值。
 
-\#warning 2.1 iOS14.3. 以下会跳至 safari 浏览器 
+\#warning 2.1 iOS14.8. 以下会跳至 safari 浏览器 
 
    
 
@@ -98,7 +98,7 @@ WITFaceKit  入口方法：
 }
 ```
 
-iOS 14.3 以下需要跳转到safari并在APP回调监控。[必须要回调，不然没有结果或者结果直接失败]
+iOS 14.8 以下需要跳转到safari并在APP回调监控。[必须要回调，不然没有结果或者结果直接失败]
 
 步骤、在AppDelegate 类，回调方法
 
